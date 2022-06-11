@@ -1,0 +1,64 @@
+.menuHorizontal {
+  height: 5vh;
+  margin: 0.2% 0.2% 0.2% 0.2%;
+  background-color: #f7daae;  
+  color: red;
+  font-size: 25px;
+  
+  text-align: center;
+}
+
+.navMenu ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  
+}
+.card{
+  background-color: white; 
+}
+
+.navMenu ul li {
+  display: inline;
+  padding-right: 10px;
+  display: flex;
+  
+  
+}
+
+.navMenu ul li a{
+
+  display: inline-block;
+  color: black;
+  text-decoration: none; 
+  height: 32px;
+  transition: 300ms;  
+  
+}
+
+#inicio a{
+  width: 70px;
+  align-items: center;
+  text-align: center;
+ 
+
+}
+#corretor a{
+  width: 110px;
+  align-items: center;
+  text-align: center;
+
+}
+#imovel a{
+  width: 90px;
+  align-items: center;
+  text-align: center;
+
+}
+.navMenu ul li a:hover{
+  color: #fff;
+  font-weight: bold;
+  font-size: 32;
+  background-color: #d2875f;  
+  
+}

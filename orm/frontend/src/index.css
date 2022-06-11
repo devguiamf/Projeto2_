@@ -1,0 +1,128 @@
+body {
+  margin: 0,2vh;
+  width: 100vw;
+  height: 99vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+legend {
+  font-size: 3vh;
+  text-align: center;
+  background-color: aqua;
+}
+
+
+.tabela {
+  border-collapse: collapse;
+  border: 0.2vh solid #ccc;
+
+  width: 100vw;
+  margin: 0.3vh auto;
+}
+
+/*
+thead > tr:last-child {
+  text-align: left;
+}
+
+thead > tr:first-child {
+  background: #d1fafd;
+}
+
+
+#cabecalho {
+  width: 100vw;
+  font-size: 4vh;
+  text-align: center;
+
+}
+
+#tisbn, #ttitulo, #tautor {
+  font-size: 3vh
+}
+#isbn {
+  width: 5vw;
+}
+
+/*
+.tabela th,
+.tabela td {
+  padding: 2vh 3vh;
+  border-bottom: 0.2vh solid #ccc;
+}
+
+thead > tr:last-child {
+  text-align: left;
+}
+thead > tr:first-child {
+  background: #d1fafd;
+}
+
+tbody > tr:nth-child(2n-1) {
+  background: #f1f1f1;
+}
+
+tfoot > tr {
+  text-align: center;
+  background: #d1fafd;
+}
+*/
+
+.botao {
+  display: inline-block;
+  width: 7vw;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.remover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.remover:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+.editar {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.editar:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+
+/* linhas pares (even) */
+.tabela tbody tr:nth-child(even) {
+  background-color: #CCC;
+}
+
+/* linhas ímpares (odd) */
+.tabela tbody tr:nth-child(odd) {
+  background-color: #FFF;
+}
+
+.tabela tbody tr:nth-child(even){background-color: #e5eccdde;}
+
+.tabela tbody tr:hover {background-color: rgba(221, 221, 221, 0.849);}

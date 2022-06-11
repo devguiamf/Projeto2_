@@ -1,0 +1,88 @@
+.categorias {
+
+  text-align: center;
+  height: 20vh;
+}
+
+legend {
+  width: 100vw;
+}
+
+
+table {
+  width: 0vw;
+}
+
+#titulo {
+  border: 0.5vh solid black;
+  background-color: darkgrey;
+  padding-top: 0.1vh;
+}
+
+#t_codigo{
+  width: 1vw;
+}
+
+#t_descricao{
+  width: 50vw;
+
+}
+
+#t_dtinclusao{
+  width: 15vw;
+}
+
+#t_dtalteracao{
+  width: 15vw;
+}
+
+#novo {
+  width: 10vw;
+}
+
+#t_sobra{
+  width: 0vw;
+}
+
+tbody > tr {
+  height: 0.2vh;
+  border: 0.0vh;
+
+}
+
+#p_codigo{
+  width: 1vw;
+  text-align: right;
+  padding-right: 0.5vw;
+}
+
+#p_descricao{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: left;
+}
+
+#p_dtinclusao{
+  width: 10vw;
+  text-align: center;
+}
+
+#p_dtalteracao{
+  width: 10vw;
+  text-align: center;
+}
+
+#btnEditar{
+  width: 2vw;
+}
+
+#btnAlterar{
+  width: 2vw;
+}
+
+
+tbody {
+  text-align: left;
+}
+
+

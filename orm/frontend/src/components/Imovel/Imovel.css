@@ -1,0 +1,116 @@
+.imovel {
+  background-color: #91c4e1 ;
+  
+  height: 20vh;
+}
+
+legend {
+  width: 100vw;
+  background-color: #91c4e1;
+  color: white;
+}
+
+
+table {
+  width: 0vw;
+}
+
+#titulo {
+  background-color: #f7daae;
+  padding-top: 0.1vh;
+  width: 100vw;  
+  
+}
+
+#t_codigo{
+  width: 1vw;
+}
+
+#t_tipo{
+  width: 50vw;
+ text-align: center;
+}
+#t_cidade{
+  width: 50vw;
+  text-align: center;
+
+}
+#t_area{
+  width: 50vw;
+  text-align: center;
+}
+#t_comodos{
+  width: 50vw;
+  text-align: center;
+
+}
+#t_corretor{
+  width: 50vw;
+  text-align: center;
+
+}
+
+#t_dtinclusao{
+  width: 50vw;
+  text-align: center;
+}
+
+#t_dtalteracao{
+  width: 50vw;
+  text-align: center;
+  
+}
+
+tbody > tr {
+  height: 0.2vh;
+  border: 0.0vh; 
+}
+
+#p_codigo{
+  width: 1vw;
+  text-align: left;
+  padding-right: 0.5vw;
+  
+}
+
+#p_tipo{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: center;
+
+}
+#p_cidade{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: center;
+}
+#p_area{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: center;
+}
+#p_comodos{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: center;
+}
+
+#p_corretor{
+  width: 50vw;
+  padding-left: 0.5vw;  
+  text-align: center;
+}
+
+
+#p_dtinclusao{
+  width: 10vw;
+ 
+}
+
+#p_dtalteracao{
+  width: 10vw;
+
+}
+
+
+

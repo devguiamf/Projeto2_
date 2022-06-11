@@ -1,0 +1,12 @@
+.areaDados {
+  height: 79vh;
+  margin: 0.2% 0.2% 0.2% 0.2%;
+  background-color: #91c4e1;
+}
+.areaDados{
+  background-image: url(http://blog.imobiliariapanorama.com.br/wp-content/uploads/2018/01/como-escolher-a-imobiliaria-ideal-na-compra-do-primeiro-imovel.jpeg);
+  
+  background-size: 900px ;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
